@@ -1,0 +1,7 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <SolidColorBrush Color="#FF3AAEFF" x:Key="HeaderBackgroundColor" />
+    <sys:Double x:Key="DialogGridWidth">400</sys:Double>
+
+</ResourceDictionary>

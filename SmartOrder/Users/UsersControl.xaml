@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="SmartOrder.UsersControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition />
+            <RowDefinition Height="35"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Width="auto" Margin="5,0,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" Text="ID" />
+            <TextBlock Grid.Column="1" Text="Όνομα" />
+            <TextBlock Grid.Column="2" Text="Κωδικός" />
+            <TextBlock Grid.Column="3" Text="Κατάσταση" />
+        </Grid>
+        <ListBox Grid.Row="1" Name="lbUsers" HorizontalContentAlignment="Left" Width="auto" Margin="0,-10,0,0">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Tag="{Binding User_id}" >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="100"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="{Binding User_id}" />
+                        <TextBlock Grid.Column="1" Text="{Binding Name}" />
+                        <TextBlock Grid.Column="2" Text="{Binding HiddenPassword}" />
+                        <TextBlock Grid.Column="3" Text="{Binding State}" />
+                        <Grid.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem Header="Αλλαγή ονόματος" Click="ChangeName"/>
+                                <MenuItem Header="Αλλαγή κωδικού" Click="ChangePass"/>
+                                <Separator/>
+                                <MenuItem Header="Διαγραφή" Click="Delete"/>
+                            </ContextMenu>
+                        </Grid.ContextMenu>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <Button Grid.Row="2" Click="Button_Click" HorizontalAlignment="Right" Margin="5" Width="100" Content="Νέος Χρήστης"/>
+        
+    </Grid>
+</UserControl>

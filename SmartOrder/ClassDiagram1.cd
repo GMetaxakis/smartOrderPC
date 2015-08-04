@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SmartOrder.App" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.UserIdConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Converters.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.1" Collapsed="true" />
+  </Class>
+  <Class Name="SmartOrder.ItemIdConverter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Converters.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.1" Collapsed="true" />
+  </Class>
+  <Class Name="SmartOrder.DBController" Collapsed="true">
+    <Position X="14.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAgSIYAEAAFAQAMRCgAgCiAQAAgEEKESAACAAA=</HashCode>
+      <FileName>DB\DBController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.DbCreator" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAIADACAAAAAIAA=</HashCode>
+      <FileName>DB\DbCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.Footer" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Footer.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.Header" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Header.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.AddCategory" Collapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>items\AddCategory.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.AddCharacteristic" Collapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>items\AddCharacteristic.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.AddItem" Collapsed="true">
+    <Position X="2.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>items\AddItem.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.AddProduct" Collapsed="true">
+    <Position X="2.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>items\AddProduct.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.Categories" Collapsed="true">
+    <Position X="2.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAAAQAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>items\Categories.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.Characteristics" Collapsed="true">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAEAAAAABQAAAAUAAAAAAAAAgAAAgI=</HashCode>
+      <FileName>items\Characteristics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.DeleteDialog" Collapsed="true">
+    <Position X="4" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAEAAAABAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>items\DeleteDialog.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.Items" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAQAAQAAAAAEAAAAAAQAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>items\Items.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.ItemsControl" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAgACgAAggAJQAAABISAAIAIBBAAEACAAAQIA=</HashCode>
+      <FileName>items\ItemsControl.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.Products" Collapsed="true">
+    <Position X="2.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAQAAAAAAAAEAAAAAAQAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>items\Products.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.MainWindow" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAABAAIAEAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.AddOrder" Collapsed="true">
+    <Position X="5.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAACAAEAAAAAAAAFAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Orders\AddOrder.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.MyTable" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEIAAIBAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Orders\MyTable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SmartOrder.Order" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EGAIAQAgAAAAACAEiAAgABgAEABQABAAQAAAAABACAA=</HashCode>
+      <FileName>Orders\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.OrdersControl" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwIAAAAAAAABEABAAAAAAAMAACAhAAAAAEAAAAQEAAA=</HashCode>
+      <FileName>Orders\OrdersControl.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.Printer" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAEQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Printer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.HttpProcessor" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EyCAAAAIAAAAAAAQgAAAAAIAAAADEgAAAAEYACAAAEA=</HashCode>
+      <FileName>server\HttpProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.HttpServer" Collapsed="true">
+    <Position X="12.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAASAAAAAAAAAAAAAAAAIAAAAgAIAAAAAAAAEA=</HashCode>
+      <FileName>server\HttpServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.MyHttpServer" Collapsed="true">
+    <Position X="12.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAIAAAEAABAAAAAAAAgAAAAEA=</HashCode>
+      <FileName>server\MyHttpServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.TestMain" Collapsed="true">
+    <Position X="12.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>server\TestMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.ChangeNamePassword" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Users\ChangeNamePassword.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.CreateUserInputDialog" Collapsed="true">
+    <Position X="4" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Users\CreateUserInputDialog.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.Unlock" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAACAAAACIAAAAAgIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Users\Unlock.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.User" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAgAAgAAAAAAAEAAAAEAQAABAEAAACAAAABgAAAAA=</HashCode>
+      <FileName>Users\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.UsersControl" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAQAAAAAgIAAAAAAAAAAEAEAUAAAAAAAAEAEAAAAA=</HashCode>
+      <FileName>Users\UsersControl.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.Properties.Resources" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartOrder.Properties.Settings" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

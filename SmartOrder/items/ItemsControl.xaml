@@ -1,0 +1,84 @@
+﻿<UserControl x:Class="SmartOrder.ItemsControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Width" Value="180"/>
+            <Setter Property="Height" Value="25"/>
+            <Setter Property="Grid.Row" Value="1"/>
+
+        </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Width" Value="180"/>
+            <Setter Property="Grid.Row" Value="0"/>
+            <Setter Property="IsEditable" Value="False"/>
+
+        </Style>
+    </UserControl.Resources>
+    <StackPanel>
+        <GroupBox Header="Κατηγοροποίηση προϊόντων">
+            <Grid HorizontalAlignment="Left">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <ComboBox Grid.Column="0" Name="cmbCategories" DisplayMemberPath="Name" SelectionChanged="cmbCategories_SelectionChanged" />
+                <ComboBox Grid.Column="1" Name="cmbProducts" DisplayMemberPath="Name" SelectionChanged="cmbProducts_SelectionChanged" />
+                <ComboBox Grid.Column="2" Name="cmbItems" DisplayMemberPath="Name" IsEnabled="False" SelectionChanged="cmbItems_SelectionChanged" />
+
+                <Button Grid.Column="0" Name="btnAddCategory" Content="Εισαγωγή κατηγορίας" Click="btnAddCategory_Click" />
+                <Button Grid.Column="1" Name="btnAddProduct" Content="Εισαγωγή προϊόντος" Click="btnAddProduct_Click"/>
+                <Button Grid.Column="2" Name="btnAddItem" Content="Εισαγωγή είδους" Click="btnAddItem_Click"/>
+
+                <Button Grid.Row="2" Grid.Column="0" Name="btnDeleteCategory" Content="Διαγραφή κατηγορίας" Click="btnDeleteCategory_Click"/>
+                <Button Grid.Row="2" Grid.Column="1" Name="btnDeleteProduct" Content="Διαγραφή προϊόντος" IsEnabled="False" Click="btnDeleteProduct_Click"/>
+                <Button Grid.Row="2" Grid.Column="2" Name="btnDeleteItem" Content="Διαγραφή είδους" IsEnabled="False" Click="btnDeleteItem_Click"/>
+
+                <Label Grid.Row="0" Grid.Column="3" Height="25" Width="100" HorizontalAlignment="Center" Content="Τιμή προϊόντος :"/>
+                <TextBox Grid.Row="0" Grid.Column="4" Height="25" VerticalContentAlignment="Center" Width="120" Name="txtPrice" IsEnabled="False" KeyDown="txtPrice_KeyDown"/>
+                <Button Grid.Row="0" Grid.Column="5" Content="Αποθήκευση τιμής" Name="btnSavePrice" IsEnabled="False" Click="btnSavePrice_Click"/>
+            </Grid>
+        </GroupBox>
+        
+        <GroupBox Header="Χαρακτηριστικά">
+            <Grid HorizontalAlignment="Left">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <ComboBox Grid.Row="0" Name="cmbCharacteristics" DisplayMemberPath="Name" SelectionChanged="cmbCharacteristics_SelectionChanged" />
+                <Button Grid.Row="1" Name="btnAddCharacteristic" Content="Προσθήκη χαρακτηριστικού" Click="btnAddCharacteristic_Click"/>
+                <Button Grid.Row="2" Name="btnDeleteCharacteristic" Content="Διαγραφή χαρακτηριστικού" Click="btnDeleteCharacteristic_Click"/>
+
+                <Label Grid.Row="0" Grid.Column="1" Height="25" Width="100" HorizontalAlignment="Center" Content="Τιμή προϊόντος :"/>
+                <TextBox Grid.Row="0" Grid.Column="2" Text="0" Height="25" VerticalContentAlignment="Center" Width="120" Name="txtCost" KeyDown="txtCost_KeyDown"/>
+                <Button Grid.Row="0" Grid.Column="3" Content="Αποθήκευση τιμής" Name="btnSaveCost" Click="btnSaveCost_Click"/>
+                
+            </Grid>
+
+        </GroupBox>
+        
+    </StackPanel>
+</UserControl>
